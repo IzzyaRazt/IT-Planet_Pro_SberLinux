@@ -1,5 +1,6 @@
 # Установка PIP пакета
-    pip install paramiko
+    pip install fusepy
 
 # Запуск проекта
-    run /YOU_PAHT/python ssh_server.py
+    mkdir /tmp/memoryfs
+    python vfs.py (memory_fs.py) /tmp/memoryfs

@@ -21,7 +21,7 @@ docker-compose up
 Чтобы запустить тесты, выполните команду:
 
 ```bash
-docker-compose run app pytest tests/
+docker-compose run app pytest runtotest/
 ```
 
 ## Ручное выполнение
